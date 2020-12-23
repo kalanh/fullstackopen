@@ -1,0 +1,11 @@
+Browser HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+Server returns HTML code
+Browser HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+Server returns main.css
+Browser HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+Server returns spa.ja
+Browser starts executing js-code that requests JSON from server
+Browser HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+Server returns 0 Object { content: "... and again.", date: "2020-12-21T13:37:53.567Z" ... }
+Browser HTTP GET https://studies.cs.helsinki.fi/favicon.ico
+Server returns favicon.ico
